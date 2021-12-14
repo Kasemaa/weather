@@ -18,7 +18,6 @@ function  cityWeather(e){
     weatherDataFetch('Tartu');
 }
 
-
 function drawWeather(data) {
     var celcius = Math.round(parseFloat(data.main.temp)-273.15)
     var description = data.weather[0].description;
